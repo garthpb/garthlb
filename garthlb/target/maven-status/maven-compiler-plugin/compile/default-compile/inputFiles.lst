@@ -1,0 +1,16 @@
+C:\Users\Garth\Documents\2022\ProbablyMonstersTakeHomeAssignment\garthlb_dropwizard\garthlb\src\main\java\garthlb\health\BasicHealthCheck.java
+C:\Users\Garth\Documents\2022\ProbablyMonstersTakeHomeAssignment\garthlb_dropwizard\garthlb\src\main\java\garthlb\GarthLbConfiguration.java
+C:\Users\Garth\Documents\2022\ProbablyMonstersTakeHomeAssignment\garthlb_dropwizard\garthlb\src\main\java\garthlb\model\UserScoreRankRecord.java
+C:\Users\Garth\Documents\2022\ProbablyMonstersTakeHomeAssignment\garthlb_dropwizard\garthlb\src\main\java\garthlb\storage\LeaderboardStorage.java
+C:\Users\Garth\Documents\2022\ProbablyMonstersTakeHomeAssignment\garthlb_dropwizard\garthlb\src\main\java\garthlb\GarthLbApplication.java
+C:\Users\Garth\Documents\2022\ProbablyMonstersTakeHomeAssignment\garthlb_dropwizard\garthlb\src\main\java\garthlb\model\LeaderboardInfo.java
+C:\Users\Garth\Documents\2022\ProbablyMonstersTakeHomeAssignment\garthlb_dropwizard\garthlb\src\main\java\garthlb\model\response\GetScoresResponse.java
+C:\Users\Garth\Documents\2022\ProbablyMonstersTakeHomeAssignment\garthlb_dropwizard\garthlb\src\main\java\garthlb\model\request\GetScoresForUsersRequest.java
+C:\Users\Garth\Documents\2022\ProbablyMonstersTakeHomeAssignment\garthlb_dropwizard\garthlb\src\main\java\garthlb\model\request\SetScoresSingleRequest.java
+C:\Users\Garth\Documents\2022\ProbablyMonstersTakeHomeAssignment\garthlb_dropwizard\garthlb\src\main\java\garthlb\model\request\SetScoresMultiRequest.java
+C:\Users\Garth\Documents\2022\ProbablyMonstersTakeHomeAssignment\garthlb_dropwizard\garthlb\src\main\java\garthlb\model\response\SetScoresResponse.java
+C:\Users\Garth\Documents\2022\ProbablyMonstersTakeHomeAssignment\garthlb_dropwizard\garthlb\src\main\java\garthlb\resources\LeaderboardService.java
+C:\Users\Garth\Documents\2022\ProbablyMonstersTakeHomeAssignment\garthlb_dropwizard\garthlb\src\main\java\garthlb\model\UserScoreReport.java
+C:\Users\Garth\Documents\2022\ProbablyMonstersTakeHomeAssignment\garthlb_dropwizard\garthlb\src\main\java\garthlb\model\request\CreateLeaderboardRequest.java
+C:\Users\Garth\Documents\2022\ProbablyMonstersTakeHomeAssignment\garthlb_dropwizard\garthlb\src\main\java\garthlb\model\ScoreMethod.java
+C:\Users\Garth\Documents\2022\ProbablyMonstersTakeHomeAssignment\garthlb_dropwizard\garthlb\src\main\java\garthlb\model\CollationType.java

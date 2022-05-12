@@ -1,0 +1,60 @@
+logging:
+  level: INFO
+  loggers:
+    garthlb: DEBUG
+
+#database:
+#  driverClass: com.mysql.cj.jdbc.Driver
+#  url: jdbc:mysql://localhost/garthlb_db
+#  user: dbuser
+#  password: worstPasswordEver
+#  maxWaitForConnection: 1s
+#  validationQuery: "SELECT 1"
+#  validationQueryTimeout: 3s
+#  minSize: 8
+#  maxSize: 32
+#  checkConnectionWhileIdle: false
+#  evictionInterval: 10s
+#  minIdleTime: 1 minute
+#  checkConnectionOnBorrow: true
+
+version: 0.0.1
+redisConfigFile: redissonConfig.yml
+
+# Change default server ports
+server:
+  applicationConnectors:
+    - type: http
+      port: 9000
+  adminConnectors:
+    - type: http
+      port: 9001
+
+# redis
+#redis:
+#  type: basic
+#  name: redis
+#  node:
+#    type: redis
+#    node: "127.0.0.1:6379"
+#    clientName: redis
+#  redisCodec:
+#    type: string
+#  clientResources:
+#    type: default
+
+# redis
+#redis:
+#  type: basic
+#  name: garthlb
+#  node:
+#    type: redis
+#    node: "127.0.0.1:6379"
+#    clientName: garthlb
+#  redisCodec:
+#    type: string
+#  clientResources:
+#    type: default
+#    commandLatencyCollector:
+#      type: default
+#      enabled: false

@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+    # redis instance
+    redis:
+        image: redis:latest
+        restart: always
+        hostname: redis
+        ports:
+          - 6379:6379
+        volumes:
+          - /tmp/redis.conf:/etc/redis/redis.conf
+        command: redis-server /etc/redis/redis.conf
+
+    
+    # java app with leaderboard service
+    webapp:
+        image: garthlb
+        container_name: garthlb
+        ports:
+          - 9000:9000
+          - 9001:9001
+        volumes:
+          - /etc/localtime:/etc/localtime
+          - /tmp/garthlb/logs:/var/logs

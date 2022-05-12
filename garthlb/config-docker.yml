@@ -1,0 +1,38 @@
+version: ${ENV_VARIABLE_VERSION:- 0.0.2}
+redisConfigFile: redissonConfig.yml
+
+# Change default server ports
+server:
+  applicationConnectors:
+    - type: http
+      port: 9000
+  adminConnectors:
+    - type: http
+      port: 9001
+
+# Log to console for Docker
+logging:
+  appenders:
+    - type: console
+      threshold: INFO
+      target: stdout
+    - type: console
+      threshold: ERROR
+      target: stderr
+
+
+# redis (dropwizard)
+#redis:
+#  type: basic
+#  name: garthlb
+#  node:
+#    type: redis
+#    node: "redis:6379"
+#    clientName: garthlb
+#  redisCodec:
+#    type: string
+#  clientResources:
+#    type: default
+#    commandLatencyCollector:
+#      type: default
+#      enabled: false
